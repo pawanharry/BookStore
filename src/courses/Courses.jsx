@@ -7,11 +7,10 @@ import Footer from '../Components/Footer'
   return (
     <>
     <Navbar/>
-    <div className='min-h-screen'>
-        
+   
         <Course />
 
-    </div>
+    
     
     <Footer/>
 

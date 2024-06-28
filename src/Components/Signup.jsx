@@ -12,12 +12,12 @@ function Signup() {
             {/* if there is a button in form, it will close the modal */}
             <Link  to = '/' className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</Link>
             </form>
-            <h3 className="font-bold text-lg">SignUp</h3>
+            <h1 className="text-3xl  text-center text-pink-500 font-bold ">Sign Up</h1>
 
             {/* Name*/}
 
             <div className='mt-4 space-y-2'>
-                <span>Name</span><br/>
+                <span  className='text-black'>Name</span><br/>
                 <input type='text' placeholder='Enter Your Name' className='w-80 px-3 py-1 border rounded-md outline-none'/>
 
             </div>
@@ -26,7 +26,7 @@ function Signup() {
             {/* Email*/}
 
             <div className='mt-4 space-y-2'>
-                <span>Email</span><br/>
+                <span  className='text-black'>Email</span><br/>
                 <input type='email' placeholder='Enter Your Email' className='w-80 px-3 py-1 border rounded-md outline-none'/>
 
             </div>
@@ -34,7 +34,7 @@ function Signup() {
              {/* password*/}
 
             <div className='mt-4 space-y-2'>
-                <span>Password</span><br/>
+                <span  className='text-black'>Password</span><br/>
                 <input type='password' placeholder='Enter Your Password' className='w-80 px-3 py-1 border rounded-md outline-none'/>
 
             </div>

@@ -17,7 +17,14 @@ function Cards({item}) {
     <p>{item.title}</p>
     <div className="card-actions justify-between">
       <div className="badge badge-outline">${item.price}</div> 
-      <Link to='/Bookinfo' className="cursor-pointer px-2 py-1 rounded-full  border[2px] badge badge-outline hover:bg-pink-500 hover:text-white  duration-200">Buy Now</Link>
+
+     
+      <Link
+              to={`/Bookinfo/${item.id}`} // Pass book id as part of URL
+              className="cursor-pointer px-2 py-1 rounded-full border-2 badge badge-outline hover:bg-pink-500 hover:text-white duration-200" >
+              Buy Now
+            </Link>
+
     </div>
   </div>
 </div>

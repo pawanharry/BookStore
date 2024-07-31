@@ -24,6 +24,7 @@ function App  () {
             <Route path='/signup' element={ <Signup/>}/>
             <Route path='/contact' element={ <Contactus/>}/>
             <Route path='/aboutus' element={ <Aboutus/>}/>
+
            
             <Route path='/Bookinfo/:id' element={<Bookinfo />} />
          

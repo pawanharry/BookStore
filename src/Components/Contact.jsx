@@ -1,77 +1,73 @@
-import React from 'react'
+import React from 'react';
 
 function Contact() {
   return (
-   <>
-        <div className='mt-28 items-center justify-center text-center'>
-            <h1 className='text-pink-500 text-4xl  md:text-6xl'>Contact Us</h1>
-         </div>   
+    <div className="bg-gray-100 min-h-screen">
+      <div className="container mx-auto py-8">
+        <div className="max-w-3xl mx-auto">
 
-        {/* left Column - Contact Form */}
-        <div className='flex h-screen items-center justify-center '>
+          {/* Contact Title */}
+          <h1 className="text-3xl md:text-5xl text-center text-pink-500 font-bold mt-12 mb-6">Contact Us</h1>
 
-       
-           
-            <form >    
-
-            {/* Name*/}
-
-            <div className='mt-4 space-y-2'>
-                <span>Name</span><br/>
-                <input type='text' placeholder='Enter Your Name' className='w-80 px-3 py-1 border rounded-md outline-none'/>
-
+          {/* Contact Information Section */}
+          <div className="bg-white rounded-lg text-black shadow-lg p-6 mb-6">
+            <h2 className="text-xl md:text-2xl font-bold mb-3">Contact Information</h2>
+            <div className="space-y-2">
+              <div><span className="font-bold">Name:</span> BookHaven</div>
+              <div><span className="font-bold">Contact Number:</span> +1 123-456-7890</div>
+              <div><span className="font-bold">Email:</span> info@bookhaven.com</div>
+              <div><span className="font-bold">Address:</span> 123 Book Street, Toronto, Canada</div>
             </div>
-            
-            
-            {/* Email*/}
+          </div>
 
-            <div className='mt-4 space-y-2'>
-                <span>Email</span><br/>
-                <input type='email' placeholder='Enter Your Email' className='w-80 px-3 py-1 border rounded-md outline-none'/>
+          {/* Contact Form Section */}
+          <div className="bg-white rounded-lg shadow-lg p-6">
+            <h2 className="text-xl md:text-2xl font-bold mb-4 text-center">Have any queries? <span className="text-pink-500 block md:inline">Send message</span></h2>
 
-            </div>
+            <form className="space-y-4">
+              {/* Name Input */}
+              <div>
+                <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Enter Your Name"
+                  className="w-full px-3 py-2 border rounded-md outline-none text-sm text-gray-600"
+                />
+              </div>
 
-             {/*text*/}
+              {/* Email Input */}
+              <div>
+                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Enter Your Email"
+                  className="w-full px-3 py-2 border rounded-md outline-none text-sm text-gray-600"
+                />
+              </div>
 
-            <div className='mt-4 space-y-2'>
-                <span>Message</span><br/>
-                <input type='text' placeholder='Enter Your Message' className='w-80 px-3 py-1 border rounded-md outline-none'/>
+              {/* Message Textarea */}
+              <div>
+                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                <textarea
+                  id="message"
+                  placeholder="Enter Your Message"
+                  rows="4"
+                  className="w-full px-3 py-2 border rounded-md outline-none text-sm text-gray-600 resize-none"
+                ></textarea>
+              </div>
 
-            </div>
-
-             {/* button*/}
-
-            <div className='flex justify-around  mt-4 '>
-                <button className=' bg-pink-500 text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-200'>Contact Us</button>
-                
-            </div>
-            
+              {/* Submit Button */}
+              <div className="text-center">
+                <button className="bg-pink-500 text-white rounded-md px-4 py-2 hover:bg-pink-700 duration-200">Contact Us</button>
+              </div>
             </form>
-
-        {/* right Column - Contact Info */}
-        <div className="bg-gray-100 p-4 rounded-lg">
-            <h2 className="text-xl font-bold mb-2">Contact Information</h2>
-            <div className="flex flex-col space-y-2">
-                <div>
-                   <span className="font-bold">Name:</span> BookHaven
-                </div>
-                <div>
-                    <span className="font-bold">Contact Number:</span> +1 123-456-7890
-                </div>
-                <div>
-                   <span className="font-bold">Email:</span> info@bookhaven.com
-                </div>
-                <div>
-                   <span className="font-bold">Address:</span> 123 Book Street, Toronto, Canada
-                </div>
-            </div>
+          </div>
         </div>
+      </div>
+    </div>
+  );
+}
 
-     </div>
-
-   
-   </>
-     )
-    }
-
-export default Contact
+export default Contact;

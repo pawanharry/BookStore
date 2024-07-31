@@ -93,7 +93,7 @@
         "name": "Gabriel García Márquez",
         "title": "One Hundred Years of Solitude",
         "price": "$100",
-        "category": "Magical Realism",
+        "category": "Magical",
         "image": "./public/sample.jpg"
     }
 ]

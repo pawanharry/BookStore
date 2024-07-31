@@ -5,7 +5,7 @@
         "title": "To Kill a Mockingbird",
         "price": "50",
         "category": "Fiction",
-        "image": "./public/sample.jpg"
+        "image": "./public/Book1.jpg"
     },
     {
         "id": 2,
@@ -14,7 +14,7 @@
         "price": "0",
         "category": "Free",
        
-        "image":"./public/sample.jpg"
+        "image":"./public/Book2.jpg"
     },
     {
         "id": 3,
@@ -22,7 +22,7 @@
         "title": "Harry Potter and the Sorcerer's Stone",
         "price": "0",
         "category": "Free",
-        "image": "./public/sample.jpg"
+        "image": "./public/Book3.jpg"
     },
     {
         "id": 4,
@@ -30,7 +30,7 @@
         "title": "The Lord of the Rings",
         "price": "$85",
         "category": "Entertainment",
-        "image": "./public/sample.jpg"
+        "image": "./public/Book4.png"
     },
     {
         "id": 5,
@@ -38,7 +38,7 @@
         "title": "Pride and Prejudice",
         "price": "0",
         "category": "Free",
-        "image":"./public/sample.jpg"
+        "image":"./public/Book5.jpg"
     },
     {
         "id": 6,
@@ -46,7 +46,7 @@
         "title": "The Book Thief",
         "price": "0",
         "category": "Free",
-        "image": "./public/sample.jpg"
+        "image": "./public/Book6.jpg"
     },
     {
         "id": 7,
@@ -54,7 +54,7 @@
         "title": "The Great Gatsby",
         "price": "0",
         "category": "Free",
-        "image": "./public/sample.jpg"
+        "image": "./public/Book7.jpg"
     },
     {
         "id": 8,
@@ -62,7 +62,7 @@
         "title": "Frankenstein",
         "price": "0",
         "category": "Free",
-        "image": "./public/sample.jpg"
+        "image": "./public/Book8.jpg"
     },
     {
         "id": 9,
@@ -70,7 +70,7 @@
         "title": "War and Peace",
         "price": "$68",
         "category": "Historical Fiction",
-        "image": "./public/sample.jpg"
+        "image": "./public/Book9.jpg"
     },
     {
         "id": 10,
@@ -78,7 +78,7 @@
         "title": "Jane Eyre",
         "price": "$50",
         "category": "Romance",
-        "image": "./public/sample.jpg"
+        "image": "./public/Book10.jpg"
     },
     {
         "id": 11,
@@ -86,7 +86,7 @@
         "title": "Moby Dick",
         "price": "0",
         "category": "FREE",
-        "image": "./public/sample.jpg"
+        "image": "./public/Book11.jpg"
     },
     {
         "id": 12,
@@ -94,6 +94,6 @@
         "title": "One Hundred Years of Solitude",
         "price": "$100",
         "category": "Magical",
-        "image": "./public/sample.jpg"
+        "image": "./public/Book12.jpg"
     }
 ]

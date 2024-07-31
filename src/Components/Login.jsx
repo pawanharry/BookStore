@@ -1,22 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { useForm } from "react-hook-form"
 
 function Login() {
-    const {
-        register,
-        handleSubmit,
-        watch,
-        formState: { errors },
-      } = useForm()
-    
-      const onSubmit = (data) => console.log(data)
   return (
    <>
     <div>
         <dialog id="my_modal_3" className="modal">
         <div className="modal-box">
-            <form onSubmit={handleSubmit(onSubmit)} method="dialog">
+            <form method="dialog">
             {/* if there is a button in form, it will close the modal */}
             <Link to='/' className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</Link>
             </form>
@@ -27,10 +18,7 @@ function Login() {
 
             <div className='mt-4 space-y-2'>
                 <span>Email</span><br/>
-                <input type='email' placeholder='Enter Your Email' className='w-80 px-3 py-1 border rounded-md outline-none'
-                 {...register("emailRequired", { required: true })}
-                />
-                {errors.email && <span>This field is required</span>}
+                <input type='email' placeholder='Enter Your Email' className='w-80 px-3 py-1 border rounded-md outline-none'/>
 
             </div>
 
@@ -38,10 +26,7 @@ function Login() {
 
             <div className='mt-4 space-y-2'>
                 <span>Password</span><br/>
-                <input type='password' placeholder='Enter Your Password' className='w-80 px-3 py-1 border rounded-md outline-none'
-                 {...register("passwordRequired", { required: true })}
-                 />
-                 {errors.password && <span>This field is required</span>}
+                <input type='password' placeholder='Enter Your Password' className='w-80 px-3 py-1 border rounded-md outline-none'/>
 
             </div>
 
@@ -51,7 +36,7 @@ function Login() {
                 <button className=' bg-pink-500 text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-200'>Login</button>
                 <p>Not Registered? 
                     <Link to='/signup' className='underline text-blue-500 cursor-pointer'>SignUp</Link>{''}
-                </p>
+                    </p>
             </div>
             
         </div>

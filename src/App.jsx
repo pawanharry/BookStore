@@ -5,6 +5,7 @@ import Courses from './courses/Courses';
 import Signup from './Components/Signup';
 import Aboutus from './aboutus/Aboutus';
 import Contactus from './contactus/Contactus';
+import Bookinfo from './bookinfo/Bookinfo';
 
 
 
@@ -21,6 +22,8 @@ function App  () {
             <Route path='/signup' element={ <Signup/>}/>
             <Route path='/contact' element={ <Contactus/>}/>
             <Route path='/aboutus' element={ <Aboutus/>}/>
+            <Route path='/Bookinfo' element={ <Bookinfo/>}/>
+
         </Routes>
 
 

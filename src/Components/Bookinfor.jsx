@@ -2,11 +2,6 @@ import React from 'react'
 import Cards from './Cards'
 import list from  '../../public/list.json'
 import { Link } from 'react-router-dom'
-
-
-function Bookinfor() {
-  return (
-  
 import { useParams } from 'react-router-dom';
 import  { useState, useEffect } from 'react'
 
@@ -33,8 +28,14 @@ function Bookinfor() {
       return <div>Loading...</div>;
     }
 
-
   return (
+  
+
+
+
+
+
+ 
     <>
     
     <div className="  py-8  max-w-screen-2xl container mx-auto md:px-20 px-4 mt-30">
